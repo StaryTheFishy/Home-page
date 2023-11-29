@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family:'IndieFlower';
+}
+
+header {
+    background-color: rgb(33, 33, 33);
+    text-decoration: none;
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding-bottom: 1rem;
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 2.2rem;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    color: rgb(203, 203, 203);
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0.459)),url(../gallery-image-french-press-classic-mugs-spring23.jpeg);
+    min-height: 5rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5.5rem;
+    object-fit: contain;
+    padding-bottom: 4.5rem;
+}
+
+.hero h1, .hero p {
+    margin-bottom: 4rem;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.725);
+    color: white;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 5.5rem;
+}
+
+.hero p {
+    font-size: 25px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 2.2rem;
+}
+
+.flex-container {
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    padding: 0.6rem;
+
+}
+
+.flex-container div {
+    flex: 1;
+    padding: 1rem;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.flex-container a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+
+}
+
+#gallery {
+    text-align: center;
+    margin-right: 3rem;
+}
+
+#gallery img  {
+    width: 25rem;
+    height: 25rem;
+    object-fit: contain;
+}
+
+#products img  {
+    width: 25rem;
+    height: 25rem;
+    object-fit: contain;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5.3rem;
+    row-gap: 1rem;
+    object-fit: contain;
+}
+
+footer {
+    padding-bottom: 1rem;
+    background-color: rgb(33, 33, 33);
+    text-decoration: none;
+}
